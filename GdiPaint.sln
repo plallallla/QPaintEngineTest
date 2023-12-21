@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2092
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GdiPaint", "GdiPaint\GdiPaint.vcxproj", "{E3393E9E-ADDE-4DBC-A9C6-045387FA9CED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0F4C046E-B4E0-4DF4-8D89-CA918D6848FB} = {0F4C046E-B4E0-4DF4-8D89-CA918D6848FB}
+		{5924F0FD-EADA-4C20-8F72-17D700342195} = {5924F0FD-EADA-4C20-8F72-17D700342195}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GdiPaintDLL", "GdiPaintDLL\GdiPaintDLL.vcxproj", "{5924F0FD-EADA-4C20-8F72-17D700342195}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyGraphicsView", "MyGraphicsView\MyGraphicsView.vcxproj", "{0F4C046E-B4E0-4DF4-8D89-CA918D6848FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3393E9E-ADDE-4DBC-A9C6-045387FA9CED}.Debug|x64.ActiveCfg = Debug|x64
+		{E3393E9E-ADDE-4DBC-A9C6-045387FA9CED}.Debug|x64.Build.0 = Debug|x64
+		{E3393E9E-ADDE-4DBC-A9C6-045387FA9CED}.Debug|x86.ActiveCfg = Debug|x64
+		{E3393E9E-ADDE-4DBC-A9C6-045387FA9CED}.Release|x64.ActiveCfg = Release|x64
+		{E3393E9E-ADDE-4DBC-A9C6-045387FA9CED}.Release|x64.Build.0 = Release|x64
+		{E3393E9E-ADDE-4DBC-A9C6-045387FA9CED}.Release|x86.ActiveCfg = Release|x64
+		{5924F0FD-EADA-4C20-8F72-17D700342195}.Debug|x64.ActiveCfg = Debug|x64
+		{5924F0FD-EADA-4C20-8F72-17D700342195}.Debug|x64.Build.0 = Debug|x64
+		{5924F0FD-EADA-4C20-8F72-17D700342195}.Debug|x86.ActiveCfg = Debug|Win32
+		{5924F0FD-EADA-4C20-8F72-17D700342195}.Debug|x86.Build.0 = Debug|Win32
+		{5924F0FD-EADA-4C20-8F72-17D700342195}.Release|x64.ActiveCfg = Release|x64
+		{5924F0FD-EADA-4C20-8F72-17D700342195}.Release|x64.Build.0 = Release|x64
+		{5924F0FD-EADA-4C20-8F72-17D700342195}.Release|x86.ActiveCfg = Release|Win32
+		{5924F0FD-EADA-4C20-8F72-17D700342195}.Release|x86.Build.0 = Release|Win32
+		{0F4C046E-B4E0-4DF4-8D89-CA918D6848FB}.Debug|x64.ActiveCfg = Debug|x64
+		{0F4C046E-B4E0-4DF4-8D89-CA918D6848FB}.Debug|x64.Build.0 = Debug|x64
+		{0F4C046E-B4E0-4DF4-8D89-CA918D6848FB}.Debug|x86.ActiveCfg = Debug|x64
+		{0F4C046E-B4E0-4DF4-8D89-CA918D6848FB}.Release|x64.ActiveCfg = Release|x64
+		{0F4C046E-B4E0-4DF4-8D89-CA918D6848FB}.Release|x64.Build.0 = Release|x64
+		{0F4C046E-B4E0-4DF4-8D89-CA918D6848FB}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D40D7277-4D61-4C4A-9FBB-1B9059EA328F}
+	EndGlobalSection
+EndGlobal
